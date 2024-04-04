@@ -63,5 +63,5 @@ def naive_bayes_vehicle_usage(datasetpath):
     }
 
 
-result = naive_bayes_vehicle_usage('lab02_dataset_2.xlsx')
+result = naive_bayes_vehicle_usage('dataset_2.xlsx')
 print(result)
