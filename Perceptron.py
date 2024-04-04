@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Load the dataset
-dataset = pd.read_csv('lab02_dataset_1.csv')
+dataset = pd.read_csv('dataset_1.csv')
 X = dataset.iloc[:, :-1].values  
 y = dataset.iloc[:, -1].map({'Positive': 1, 'Negative': -1}).values
 
