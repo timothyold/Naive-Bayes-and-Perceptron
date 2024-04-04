@@ -9,9 +9,9 @@ This is a CSV file with three columns: `X`, `Y`, and `Z`.
 ### 2. `lab02_dataset_2.xlsx`
 This is an Excel file with various columns representing different attributes, including `ID`, `KIDSDRIV`, `AGE`, `HOMEKIDS`, `YOJ`, `INCOME`, `HOME_VAL`, `TRAVTIME`, `BLUEBOOK`, `TIF`, `MVR_PTS`, `CAR_AGE`, `CLM_AMT`, `CLM_COUNT`, and `EXPOSURE`.
 
-### Machine Learning Models
+## Machine Learning Models
 
-## Naive Bayes Algorithm Detailed Description
+### Naive Bayes Algorithm Detailed Description
 
 The `NaiveBayes.py` file contains a function `naive_bayes_vehicle_usage` that implements a Naive Bayes classifier using the `CategoricalNB` class from `sklearn`. Here is how the algorithm works step by step:
 
@@ -44,7 +44,7 @@ The `NaiveBayes.py` file contains a function `naive_bayes_vehicle_usage` that im
 The function returns the accuracy and misclassification rate of the model, and prints the probability distributions for the specified profiles.
 
 
-## Perceptron Algorithm Detailed Description
+### Perceptron Algorithm Detailed Description
 
 The `Perceptron.py` file contains an implementation of the Perceptron learning algorithm, which is a type of linear classifier. The process is as follows:
 
